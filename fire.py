@@ -75,8 +75,8 @@ if uploaded_file is not None:
                     
                     out.write(annotated_frame)
 
-                  
-                    video_placeholder.image(annotated_frame, channels="BGR", caption="Detection in Progress", use_column_width=True)
+                   
+                    video_placeholder.image(annotated_frame, channels="BGR", caption="Detection in Progress", use_container_width=True)
 
                    
                     time.sleep(1 / fps)
